@@ -1,6 +1,3 @@
-DEVOPS PROJECT REPORT 
-Nimra Humayun 24450
-
 
 This report outlines the deployment of a production-level cloud infrastructure using Terraform on Amazon Web Services (AWS). The architecture features a custom Virtual Private Cloud (VPC) with clearly defined public and private subnets, secure EC2 instances for compute resources, and Amazon RDS for persistent data storage. Security is managed through the use of well-structured security groups. The following sections provide a detailed explanation of each component, its configuration, and its role within the overall system.
  
