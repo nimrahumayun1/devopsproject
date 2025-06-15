@@ -1,0 +1,15 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore .terraform directory
+.terraform/
+
+# Ignore lock file (optional)
+.terraform.lock.hcl
+
+# Ignore system files
+.DS_Store
+
+# Ignore user-specific data
+*.log
