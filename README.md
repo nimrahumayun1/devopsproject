@@ -81,7 +81,7 @@ The web application is deployed across EC2 instances managed by an Auto Scaling 
 A launch template defines the configuration of the app instances, incorporating a user-data script (ec2_userdata.sh) to automate provisioning. Upon launch, each instance executes the following tasks:
 •	Applies system updates and installs essential packages such as Git and Docker.
 •	Starts and enables the Docker daemon to support containerized application execution.
-•	Clones the application repository from GitHub (https://github.com/Hraheel/reactapp.git) into the EC2 user's home directory.
+•	Clones the application repository from GitHub (https://github.com/nimrahumayun1/reactapp.git) into the EC2 user's home directory.
 •	Builds a Docker image named react-app using the provided Dockerfile.
 •	Runs the Docker container, mapping it to port 8080, which corresponds with the ALB target group’s configuration.
 This setup ensures that each instance is automatically configured, application-ready, and integrated with the ALB upon launch. The Auto Scaling Group provides:
